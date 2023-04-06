@@ -49,4 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
 `
