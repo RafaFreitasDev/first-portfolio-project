@@ -1,11 +1,11 @@
 import { StyledHeader } from "./style"
-import fundo from "../../../assets/img/perfil/alta-velocidade-mapa-mundial-tecnologia-abstrata-plano-de-fundo-conceituado-padrão-movimento-e-brilho-sobre-azul-escuro-hitech-193132388.jpg"
+import fundo from "../../../assets/img/perfil/code_g1195673150_searchsitetablet_520X173.jpg"
 
 export const Header = () => {
 
     return(
         <StyledHeader>
-                <img src={fundo} alt="Mapa mundi tech" />
+                <img src={fundo} alt="código" />
         </StyledHeader>
     )
 }

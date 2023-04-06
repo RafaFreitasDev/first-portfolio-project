@@ -11,7 +11,7 @@ export const Projects = () => {
 
     return(
         <StyledProjects>
-            <h3 className="projects">Projects</h3>
+            <h3 className="projects">Alguns Projetos Realizados</h3>
             <div>
                 <ProjectCard logo={kenziehub} text="Kenzie Hub" link="https://s3-12.vercel.app"/>
                 <ProjectCard logo={nukenzie} text="Nu Kenzie" link="https://nu-kenzie-lac.vercel.app"/>

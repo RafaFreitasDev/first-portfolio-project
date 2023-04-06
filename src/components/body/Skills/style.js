@@ -24,11 +24,13 @@ export const StyledSkills = styled.header`
   }
 
   @media (min-width: 500px) {
-    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    
     
   }
 
   @media (min-width: 769px) {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
   @media (min-width: 1025px) {

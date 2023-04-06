@@ -10,7 +10,7 @@ export const StyledProjects = styled.header`
 
   .projects {
     font-size: 32px;
-    line-height: 32px;
+    line-height: 48px;
     color: #070e47;
     font-weight: 600;
     text-align: center;

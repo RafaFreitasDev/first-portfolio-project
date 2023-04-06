@@ -17,13 +17,13 @@ export const Skills = () => {
 
     return(
         <StyledSkills>
-            <h3 className="skills">SKILLS</h3>
+            <h3 className="skills">Skills</h3>
             <div>
             <SkillCard logo={html} text="HTML"/>
                 <SkillCard logo={css} text="CSS"/>
-                <SkillCard logo={javascript} text="JavaScript"/>
+                <SkillCard logo={javascript} text="Java Script"/>
                 <SkillCard logo={react} text="ReactJs"/>
-                <SkillCard logo={typescript} text="TypeScript"/>
+                <SkillCard logo={typescript} text="Type Script"/>
                 <SkillCard logo={next} text="Next.Js"/>
                 <SkillCard logo={sass} text="SASS"/>
                 <SkillCard logo={node} text="Node.Js Express"/>

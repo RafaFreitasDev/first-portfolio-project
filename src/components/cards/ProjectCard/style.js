@@ -7,12 +7,13 @@ export const StyledProjectCard = styled.div`
     align-items: center;
    
     div {
-      width: 40px;
-      height: 40px;
+      display: flex;
+      justify-content: center;
       border-radius: 8px;
 
       img {
-        width: 100%;
+        height: 40px;
+        width: 40px;
         border-radius: 8px;
       }
     }
