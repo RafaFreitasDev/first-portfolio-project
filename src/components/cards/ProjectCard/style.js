@@ -23,7 +23,7 @@ export const StyledProjectCard = styled.div`
     font-size: 12px;
     line-height: 32px;
     color: #070e47;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   @media(min-width:500px){

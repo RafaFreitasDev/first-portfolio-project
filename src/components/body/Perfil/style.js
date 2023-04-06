@@ -4,7 +4,7 @@ export const StyledPerfil = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: rgb(232, 234, 237);
+background-color: rgb(232, 234, 237, 0.8);
 padding: 0px  20px;
 padding-bottom: 30px;
 border-radius: 25px;

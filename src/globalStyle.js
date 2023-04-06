@@ -1,11 +1,11 @@
 import { createGlobalStyle } from "styled-components";
-import React from "react";
+
 
 
 export const GlobalStyle = createGlobalStyle`
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     
 }

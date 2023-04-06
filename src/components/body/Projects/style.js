@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledProjects = styled.header`
   padding: 20px;
   width: 100%;
-  background-color: rgb(232, 234, 237);
+  background-color: rgb(232, 234, 237, 0.8);
   justify-content: space-around;
   border-radius: 25px;
   margin-top: 20px;
