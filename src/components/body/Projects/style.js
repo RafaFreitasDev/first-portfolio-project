@@ -7,6 +7,7 @@ export const StyledProjects = styled.header`
   justify-content: space-around;
   border-radius: 25px;
   margin-top: 20px;
+  padding-bottom: 40px;
 
   .projects {
     font-size: 32px;

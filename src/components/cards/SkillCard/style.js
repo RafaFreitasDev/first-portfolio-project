@@ -5,6 +5,7 @@ export const StyledSkillCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
    
     div {
       display: flex;

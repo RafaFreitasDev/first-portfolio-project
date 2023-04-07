@@ -21,9 +21,11 @@ export const StyledProjectCard = styled.div`
 
   h3 {
     font-size: 12px;
-    line-height: 32px;
+    line-height: 12px;
     color: #070e47;
     font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
   }
 
   @media(min-width:500px){
