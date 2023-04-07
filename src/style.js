@@ -23,6 +23,10 @@ export const StyledContainer = styled.div`
       background-color: rgb(232, 234, 237, 0.8);
       border: 4px solid white;
     }
+
+    .on{
+      background-color: rgb(42, 137, 232,0.6);
+    }
   }
 
   .box {

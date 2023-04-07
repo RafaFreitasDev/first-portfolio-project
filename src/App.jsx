@@ -11,7 +11,7 @@ import { LanguageContext } from "./context/language";
 
 function App() {
 
-  const {toPortuguese, toEnglish} = useContext(LanguageContext)
+  const {lang, toPortuguese, toEnglish} = useContext(LanguageContext)
 
   return (
     <>
@@ -19,8 +19,8 @@ function App() {
       <GlobalStyle />
       <StyledContainer >
         <div className="btnBox">
-          <button onClick={()=>toPortuguese()}>Português</button>
-          <button onClick={()=>toEnglish()}>English</button>
+          <button className={lang=="port"?"on":""} onClick={()=>toPortuguese()}>Português</button>
+          <button className={lang=="eng"?"on":""} onClick={()=>toEnglish()}>English</button>
         </div>
         <div className="box">
           <Perfil />
