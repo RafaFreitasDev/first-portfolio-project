@@ -10,10 +10,26 @@ export const StyledContainer = styled.div`
   background-image: url(${fundoImg});
   background-size: cover;
 
+  .btnBox{
+    display: flex;
+    gap: 20px;
+
+    button{
+      width: 120px;
+      height: 40px;
+      border-radius: 8px;
+      color: #070e47;
+      font-weight: 600;
+      background-color: rgb(232, 234, 237, 0.8);
+      border: 4px solid white;
+    }
+  }
+
   .box {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
   }
 
   @media (min-width: 769px) {
@@ -26,10 +42,5 @@ export const StyledContainer = styled.div`
     }
   }
 
-  @media (min-width: 1025px) {
-    /* width: 1024px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
-  }
+ 
 `;
