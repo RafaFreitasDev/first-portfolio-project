@@ -17,7 +17,7 @@ export const Perfil = () => {
             meu nome é <span className="neg">Rafael Freitas</span>,
             Desenvolvedor <span className="neg">FullStack</span> em formação, já
             graduado como Desenvolvedor <span className="neg">Front End</span>.
-            Formado em Eng. Mecânica, bom em trabalhar em equipe, fácil
+            Formado em Eng. Mecânica, gosto de trabalhar em equipe, fácil
             comunicação e versátil em solucionar problemas. Sempre buscando
             melhorias, com muito foco e disciplina para adquirir novos
             conhecimentos.
@@ -27,12 +27,12 @@ export const Perfil = () => {
             <span className="title">Hello,</span>
             <br />
             my name is <span className="neg">Rafael Freitas</span>. I am a{" "}
-            <span className="neg">FullStack</span> Developer in training, and I
-            have already graduated as <span className="neg">Front End</span>{" "}
-            Developer and Mechanical Engineering. I am good at work-team with
-            easy communication and versatile in problema solving. I am always
-            looking for improvements, with focus and discipline to acquire new
-            knowledge.
+            <span className="neg">FullStack</span> Developer in training,
+            already graduated as a <span className="neg">Front End</span>{" "}
+            Developer. With a degree in Mechanical Engineering, I enjoy working
+            in teams, have good communication skills, and I'm versatile in
+            problem-solving. I am always seeking improvements, with a lot of
+            focus and discipline to acquire new knowledge.
           </h3>
         )}
       </div>
