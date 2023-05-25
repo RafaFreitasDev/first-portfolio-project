@@ -23,7 +23,7 @@ export const Contacts = () => {
             <ContactCardLink logo={github} text="GitHub" link="https://github.com/RafaFreitasDev?tab=repositories"/>
             <CardEmail logo={email} text="rafafreitas.dev@gmail.com"/>
             {lang=="port"?<ContactCard logo={whatsapp} text="(71) 99295-1939"/>:<CardEmail logo={whatsapp} text="+55 (71) 99295-1939"/>}
-            {lang=="port"?<ContactCardLink logo={curriculo} text="Currículo" link="https://drive.google.com/file/d/17v6YHsqVhIB9-yy3MdZeqtWO6X2HjzEE/view?usp=share_link"/>:<ContactCardLink logo={curriculo} text="Resume" link="https://drive.google.com/file/d/1RkQzntOziau8Fg_u0-5lSYRPGniQ06OP/view?usp=share_link"/>}
+            {lang=="port"?<ContactCardLink logo={curriculo} text="Currículo" link="https://drive.google.com/file/d/1Bit2P26lIkQH0xoI8bNunAQXjmoM5E9u/view?usp=sharing"/>:<ContactCardLink logo={curriculo} text="Resume" link="https://drive.google.com/file/d/1oYT7jgYGYdRkAWhs4Af5J4UzPRwR5MAs/view?usp=sharing"/>}
         </StyledContact>
     )
 }
