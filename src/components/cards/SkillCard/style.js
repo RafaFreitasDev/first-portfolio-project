@@ -4,19 +4,25 @@ export const StyledSkillCard = styled.div`
  
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 20px;
+   
+    
    
     div {
       display: flex;
       justify-content: center;
       border-radius: 8px;
+      height: 40px;
       
 
       img {
-        height: 40px;
+        height: 100%;
         width: 40px;
         border-radius: 8px;
+        background-color: white;
+        
+        
       }
     }
 

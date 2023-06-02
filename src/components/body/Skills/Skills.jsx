@@ -8,6 +8,9 @@ import next from "../../../assets/img/skills/nextjs.png"
 import sass from "../../../assets/img/skills/sass.png"
 import node from "../../../assets/img/skills/node +express.png"
 import sql from "../../../assets/img/skills/sql.png"
+import orm from "../../../assets/img/skills/orm.png"
+import python from "../../../assets/img/skills/python.png"
+import django from "../../../assets/img/skills/django.png"
 import api from "../../../assets/img/skills/api rest.png"
 import git from "../../../assets/img/skills/github.png"
 import { SkillCard } from "../../cards/SkillCard/SkillCard"
@@ -28,6 +31,9 @@ export const Skills = () => {
                 <SkillCard logo={sass} text="SASS"/>
                 <SkillCard logo={node} text="Node.Js Express"/>
                 <SkillCard logo={sql} text="SQL"/>
+                <SkillCard logo={orm} text="ORM"/>
+                <SkillCard logo={python} text="Python"/>
+                <SkillCard logo={django} text="Django"/>
                 <SkillCard logo={api} text="API Rest"/>
                 <SkillCard logo={git} text="GitHub"/>
             </div>

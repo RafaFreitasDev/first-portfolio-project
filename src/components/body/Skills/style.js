@@ -5,6 +5,7 @@ export const StyledSkills = styled.header`
   width: 100%;
   background-color: rgb(232, 234, 237, 0.8);
   justify-content: space-around;
+  align-items: center;
   border-radius: 25px;
   margin-top: 20px;
 
